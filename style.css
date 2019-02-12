@@ -1,0 +1,104 @@
+h1, h2, h4 {
+	font-family: 'Great Vibes', Roboto, sans-serif;
+}
+
+h3, p {
+	font-family: Roboto, sans-serif;
+}
+
+h4 {
+	font-size: 36px;
+}
+
+.date { 
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 2.1rem;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+#accueil {
+	position: relative;
+    background-color: #DB1702;
+    color: #FFFF00;
+}
+
+#accueil > h1, #accueil > h2 {
+    position: absolute;
+    z-index: 1;
+}
+
+#accueil > h1 {
+    top: 56px;
+    left: 94px;
+}
+
+#accueil > h2 {
+    top: 132px;
+    left: 94px;
+}
+
+#festival {
+    background-color: #DD985C;
+}
+
+#adresse {
+	text-align: center;
+}
+
+#actualite {
+	background-color: #D1B606
+}
+
+#titre-h1 {
+	text-align: center;
+}
+
+.titre-h2 {
+	font-size: 63px;
+}
+
+#films {
+	background-color: #000000;
+}
+
+article, .affiche {
+	margin-top: 30px;
+}
+
+.image{
+	text-align: center;
+}
+
+.description {
+	margin-top: 15px;
+    color: #FFFF00;
+    font-size: 1.7rem;
+	text-align: center;
+}
+
+span {
+    color: #FFFFFF;
+}
+
+#inscription {
+	background-color: #FDF1B8;
+}
+
+#footer {
+	background-color: #000000;
+    color: #FFFF00;
+    text-align: center;
+}
+
+a, a:visited  {
+    color: #FFFF00;
+}
+
+@media screen and (max-width: 768px) {
+    #Affiche-Science-Fiction {
+    	display: none;
+    }
+}
